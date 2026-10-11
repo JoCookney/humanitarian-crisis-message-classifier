@@ -63,6 +63,22 @@ The preserved splits contained:
 | Development | 4,422 |
 | Test | 8,606 |
 | **Total** | **43,409** |
+**Humanitarian categories.** The classifier predicts one of the following ten HumAID labels. Counts refer to the complete dataset across the training, development, and test partitions.
+
+| Humanitarian class label | Messages |
+| --- | ---: |
+| `rescue_volunteering_or_donation_effort` | 12,164 |
+| `other_relevant_information` | 7,644 |
+| `infrastructure_and_utility_damage` | 6,045 |
+| `sympathy_and_support` | 5,081 |
+| `injured_or_dead_people` | 4,236 |
+| `caution_and_advice` | 2,287 |
+| `displaced_people_and_evacuations` | 2,136 |
+| `not_humanitarian` | 1,986 |
+| `requests_or_urgent_needs` | 1,651 |
+| `missing_or_found_people` | 179 |
+| **Total** | **43,409** |
+
 
 The dataset is substantially imbalanced. The largest category, `rescue_volunteering_or_donation_effort`, contains 12,164 messages (28.02%), while `missing_or_found_people` contains only 179 (0.41%).
 
