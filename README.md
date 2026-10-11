@@ -63,6 +63,7 @@ The preserved splits contained:
 | Development | 4,422 |
 | Test | 8,606 |
 | **Total** | **43,409** |
+
 **Humanitarian categories.** The classifier predicts one of the following ten HumAID labels. Counts refer to the complete dataset across the training, development, and test partitions.
 
 | Humanitarian class label | Messages |
